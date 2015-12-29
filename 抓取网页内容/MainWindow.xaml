@@ -1,0 +1,40 @@
+﻿<Window x:Name="mainwin" x:Class="抓取网页内容.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="szz-支付宝" Height="800" Width="1280" Initialized="Window_Initialized"  AllowsTransparency="False" WindowStyle="None" ResizeMode="NoResize" Topmost="False" Left="0" Top="0"  Background="#FF031BB4" Closing="mainwin_Closing" Loaded="mainwin_Loaded">
+    <!--设置样式 -->
+
+
+    <Grid Margin="0,0,6,2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="115*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="512*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Margin="10,10,0,0" TextWrapping="Wrap" Text="如意兑零机~" HorizontalAlignment="Left" Width="138" x:Name="asd" Height="27" VerticalAlignment="Top" HorizontalScrollBarVisibility="Auto" AcceptsReturn="True"/>
+        <Button x:Name="init" Content="Step1 Init" HorizontalAlignment="Left" Margin="11,284,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click" Height="44"/>
+        <Button x:Name="start" Content="Step2 Start" HorizontalAlignment="Left" Height="45" Margin="11,0,0,369" VerticalAlignment="Bottom" Width="101" Click="start_Click"/>
+        <Button x:Name="disp" Content="Display" HorizontalAlignment="Left" Margin="11,333,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click_1" Height="46"/>
+        <Button x:Name="test" Content="test" HorizontalAlignment="Left" Margin="37,460,0,0" VerticalAlignment="Top" Width="148" Height="55" Click="test_Click" IsEnabled="False"/>
+        <Button x:Name="change1" Content="换1元" HorizontalAlignment="Left" Margin="37,532,0,0" VerticalAlignment="Top" Width="148" Height="54" Click="Change1_Click" IsEnabled="False"/>
+        <Button x:Name="change2" Content="换2元" HorizontalAlignment="Left" Margin="37,603,0,0" VerticalAlignment="Top" Width="148" Height="51" Click="change2_Click" IsEnabled="False"/>
+        <Button x:Name="change5" Content="换5元" HorizontalAlignment="Left" Margin="37,668,0,0" VerticalAlignment="Top" Width="148" Height="51" Click="change5_Click_1" IsEnabled="False"/>
+        <Button x:Name="change10" Content="土豪换10元" HorizontalAlignment="Left" Margin="37,737,0,0" VerticalAlignment="Top" Width="148" Height="51" BorderBrush="#FFCD0707" Foreground="#FF53234C" Click="change10_Click" IsEnabled="False">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Image x:Name="ch10" Grid.Column="2" HorizontalAlignment="Left" Height="618" Margin="144,64,0,0" VerticalAlignment="Top" Width="702" Source="10.jpg" Visibility="Hidden"/>
+        <Image x:Name="testimg" Grid.Column="2" HorizontalAlignment="Left" Height="618" Margin="144,64,0,0" VerticalAlignment="Top" Width="617" Source="0.01.jpg" Visibility="Hidden"/>
+        <WebBrowser Margin="0,10,10,10" Source="https://consumeprod.alipay.com/record/advanced.htm" x:Name="Web" Loaded="Web_Loaded" Navigated="Web_Navigated" Grid.Column="2"/>
+        <Button x:Name="exit" Content="Exit" HorizontalAlignment="Left" Margin="117,384,0,0" VerticalAlignment="Top" Width="103" Height="45" Click="Button_Click_2"/>
+        <ComboBox x:Name="ports"  HorizontalAlignment="Left" Margin="117,284,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label x:Name="reset" Content="Designed By Szz&#xD;&#xA;&#xD;&#xA;程序写得再屌&#xD;&#xA;考试也会挂科" HorizontalAlignment="Left" Margin="11,64,0,0" VerticalAlignment="Top" Width="137" Background="#FF4C11CD" Foreground="White" Height="82" MouseDoubleClick="fuwei"/>
+
+    </Grid>
+</Window>

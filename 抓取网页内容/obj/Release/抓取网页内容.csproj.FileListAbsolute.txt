@@ -1,0 +1,13 @@
+G:\Development\CSharp\抓取网页内容\抓取网页内容\bin\Release\抓取网页内容.exe.config
+G:\Development\CSharp\抓取网页内容\抓取网页内容\bin\Release\抓取网页内容.exe
+G:\Development\CSharp\抓取网页内容\抓取网页内容\bin\Release\抓取网页内容.pdb
+G:\Development\CSharp\抓取网页内容\抓取网页内容\obj\Release\MainWindow.baml
+G:\Development\CSharp\抓取网页内容\抓取网页内容\obj\Release\MainWindow.g.cs
+G:\Development\CSharp\抓取网页内容\抓取网页内容\obj\Release\App.g.cs
+G:\Development\CSharp\抓取网页内容\抓取网页内容\obj\Release\抓取网页内容_MarkupCompile.cache
+G:\Development\CSharp\抓取网页内容\抓取网页内容\obj\Release\抓取网页内容.g.resources
+G:\Development\CSharp\抓取网页内容\抓取网页内容\obj\Release\抓取网页内容.Properties.Resources.resources
+G:\Development\CSharp\抓取网页内容\抓取网页内容\obj\Release\抓取网页内容.csproj.GenerateResource.Cache
+G:\Development\CSharp\抓取网页内容\抓取网页内容\obj\Release\抓取网页内容.exe
+G:\Development\CSharp\抓取网页内容\抓取网页内容\obj\Release\抓取网页内容.pdb
+G:\Development\CSharp\抓取网页内容\抓取网页内容\obj\Release\抓取网页内容.csprojResolveAssemblyReference.cache
